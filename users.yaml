@@ -1,0 +1,45 @@
+credentials:
+  usernames:
+    johndoe@example.com:
+      name: John Doe
+      password: $2b$12$HozN3nBzPbFvo8fqHAHdc.0tmFu0tXIqKMW/51WtUECTUcbfHvPZW # abc
+      type: Patient
+    jane@example.com:
+      name: Jane
+      password: $2b$12$HozN3nBzPbFvo8fqHAHdc.0tmFu0tXIqKMW/51WtUECTUcbfHvPZW # abc
+      type: Patient
+    bob@example.com:
+      name: Bob
+      password: $2b$12$HozN3nBzPbFvo8fqHAHdc.0tmFu0tXIqKMW/51WtUECTUcbfHvPZW # abc
+      type: Patient
+    alice@example.com:
+      name: Alice
+      password: $2b$12$HozN3nBzPbFvo8fqHAHdc.0tmFu0tXIqKMW/51WtUECTUcbfHvPZW # abc
+      type: Patient
+    charlie@example.com:
+      name: Charlie
+      password: $2b$12$HozN3nBzPbFvo8fqHAHdc.0tmFu0tXIqKMW/51WtUECTUcbfHvPZW # abc
+      type: Patient
+    smith@example.com:
+      name: Dr. Smith
+      password: $2b$12$2ZdWdojH/FWnHeAz695cxOiFzX2KZlur0HCjx/Mekra8nE9c8Mh.i # 123
+      type: Doctor
+    johnson@example.com:
+      name: Dr. Johnson
+      password: $2b$12$2ZdWdojH/FWnHeAz695cxOiFzX2KZlur0HCjx/Mekra8nE9c8Mh.i # 123
+      type: Doctor
+    davis@example.com:
+      name: Dr. Davis
+      password: $2b$12$2ZdWdojH/FWnHeAz695cxOiFzX2KZlur0HCjx/Mekra8nE9c8Mh.i # 123
+      type: Doctor
+    admin:
+      name: Admin
+      password: $2b$12$uKJRZsMPUOccgiung5sI4.SDKow7Eq/dUgCoMDCVAsGKGqnnvlFQK # 1
+      type: Pharma
+cookie:
+  expiry_days: 1
+  key: darsh # Must be string
+  name: darsh
+preauthorized:
+  emails:
+  - blah@gmail.com
